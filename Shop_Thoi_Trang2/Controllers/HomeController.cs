@@ -1,9 +1,4 @@
-﻿using Shop_Thoi_Trang2.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
 namespace Shop_Thoi_Trang2.Controllers
 {
@@ -11,8 +6,6 @@ namespace Shop_Thoi_Trang2.Controllers
     {
         public ActionResult Index()
         {
-            var message = new MessageModel1();
-            message.Welcome = "Hello come to Shop";
             return View();
         }
 
